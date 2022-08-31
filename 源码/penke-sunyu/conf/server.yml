@@ -1,0 +1,11 @@
+#服务器运行环境 -有默认值
+server:
+  ip: localhost
+  port: 8050
+  threadNum: 2
+
+#资源配置位置 - 必须配置的
+resources:
+  images: /resource/images
+  home: /resource/home
+  # index: /resource/home/index.html
